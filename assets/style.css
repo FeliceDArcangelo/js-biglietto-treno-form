@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(110, 45, 45);
+}
+
+body h1, body h2{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 1em;
+}
+
+.card{
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+.first{
+    border-radius: 1.5em;
+    height: 200px;
+}
+
+.in-container{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+
+
+.in-container div{
+    width: 200px;
+}
+
+.btn-generetor{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.btn-generetor button{
+    margin: 1em;
+}
+
+.second{
+    height: 300px;
+    border-radius: 1.5em;
+}
+
+.ticket-container{
+    padding: 2em;
+}
+
+.ticket{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket div{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5em;
+}
+
+.name-ticket{
+    background-color: gray;
+}
+
